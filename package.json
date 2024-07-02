@@ -1,0 +1,24 @@
+{
+  "name": "fsatm",
+  "version": "2.0.3",
+  "description": "This is ATM machine",
+  "main": "index.js",
+  "type": "module",
+  "acsess": "public",
+  "bin": {
+    "fsatm": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fsatm": "^2.0.3",
+    "inquirer": "^9.2.18"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
